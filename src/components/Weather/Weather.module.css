@@ -1,0 +1,83 @@
+.weatherinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.App_header h1 {
+  font-size: 34px;
+  line-height: 1.4em;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.App_header h3 {
+  color: #000;
+  font-size: 18px;
+  line-height: 1.4em;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.App_header h3 span{
+  color: red;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.App_header img {
+  margin-top: 20px;
+}
+/* .citySearch {
+  display: flex;
+  gap: 5px;
+} */
+
+/* input {
+  width: 200px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #575757;
+  border-radius: 10px;
+  padding: 15px 20px;
+  letter-spacing: 0.5px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+} */
+
+.weatherInformation {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #eff0f4;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0.5px;
+}
+
+.weatherInformation span {
+  font-size: 18px;
+  color: blueviolet;
+}
